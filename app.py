@@ -23,7 +23,7 @@ st.write("Upload PDF, DOCX or TXT and translate into English and/or German.")
 
 client = OpenAI(
     api_key=st.secrets["API_KEY"],
-    base_url=st.secrets["BASE_URL"]
+    base_url="https://api.hrz.uni-giessen.de"
 )
 
 # ----------------------------
